@@ -388,6 +388,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/redwood/proprietary/vendor/firmware/yupik_ipa_fws.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.b04 \
     vendor/xiaomi/redwood/proprietary/vendor/firmware/yupik_ipa_fws.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.elf \
     vendor/xiaomi/redwood/proprietary/vendor/firmware/yupik_ipa_fws.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/yupik_ipa_fws.mdt \
+    vendor/xiaomi/redwood/proprietary/vendor/gpu/kbc/sequence_manifest.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/sequence_manifest.bin \
+    vendor/xiaomi/redwood/proprietary/vendor/gpu/kbc/unified_kbcs_32.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_32.bin \
+    vendor/xiaomi/redwood/proprietary/vendor/gpu/kbc/unified_kbcs_64.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_kbcs_64.bin \
+    vendor/xiaomi/redwood/proprietary/vendor/gpu/kbc/unified_ksqs.bin:$(TARGET_COPY_OUT_VENDOR)/gpu/kbc/unified_ksqs.bin \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/camera/com.qti.sensormodule.redwood_aac_ov02b10_macro.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.redwood_aac_ov02b10_macro.bin \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/camera/com.qti.sensormodule.redwood_aac_ov16a1q_front.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.redwood_aac_ov16a1q_front.bin \
     vendor/xiaomi/redwood/proprietary/vendor/lib64/camera/com.qti.sensormodule.redwood_sunny_s5k4h7_ultra.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.redwood_sunny_s5k4h7_ultra.bin \
@@ -427,6 +431,8 @@ PRODUCT_PACKAGES += \
     libOmxQcelp13Dec \
     libOmxWmaDec \
     libOpenCL \
+    libVkLayer_q3dtools \
+    libadreno_app_profiles \
     libadreno_utils \
     libc2d30_bltlib \
     libcapiv2svacnn \
@@ -441,8 +447,11 @@ PRODUCT_PACKAGES += \
     libdsutils \
     libfastcvdsp_stub \
     libfastcvopt \
+    libgpudataproducer \
     libgsl \
     libidl \
+    libkcl \
+    libkernelmanager \
     libllvm-glnext \
     libllvm-qcom \
     libmdmdetect \
@@ -492,6 +501,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.vpp@2.0 \
     vendor.qti.memory.pasrmanager@1.0 \
     vendor.qti.memory.pasrmanager@1.1 \
+    vendor.qti.qspmhal@1.0 \
     btaudio_offload_if \
     audio.primary.lahaina \
     sound_trigger.primary.lahaina \
