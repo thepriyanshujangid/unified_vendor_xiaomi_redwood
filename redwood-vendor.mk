@@ -446,7 +446,7 @@ PRODUCT_PACKAGES += \
     libllvm-qcom \
     libmdmdetect \
     libminkdescriptor \
-    libmmosal \
+    libmmosal-vendor \
     libnetmgr \
     libperfconfig \
     libperfgluelayer \
@@ -665,7 +665,7 @@ PRODUCT_PACKAGES += \
     com.qualcomm.mcx.distortionmapper \
     com.qualcomm.mcx.linearmapper \
     com.qualcomm.mcx.policy.mfl \
-    com.qualcomm.qti.dpm.api@1.0 \
+    com.qualcomm.qti.dpm.api@1.0-vendor \
     com.qualcomm.qti.imscmservice@1.0 \
     com.qualcomm.qti.imscmservice@2.0 \
     com.qualcomm.qti.imscmservice@2.1 \
@@ -1043,7 +1043,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsconfig@2.0 \
     vendor.qti.ims.rcsconfig@2.1 \
     vendor.qti.imsrtpservice@3.0-service-Impl \
-    vendor.qti.imsrtpservice@3.0 \
+    vendor.qti.imsrtpservice@3.0-vendor \
     vendor.qti.latency@2.0 \
     vendor.qti.latency@2.1 \
     vendor.xiaomi.hardware.campostproc@1.0-service-impl \
