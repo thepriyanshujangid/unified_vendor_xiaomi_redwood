@@ -404,22 +404,8 @@ PRODUCT_PACKAGES += \
     libq3dtools_adreno \
     libq3dtools_esx \
     vulkan.adreno \
-    libAlacSwDec \
-    libApeSwDec \
     libC2D2 \
     libCB \
-    libMpeghSwEnc \
-    libOmxAacDec \
-    libOmxAlacDec \
-    libOmxAlacDecSw \
-    libOmxAmrwbplusDec \
-    libOmxApeDec \
-    libOmxApeDecSw \
-    libOmxEvrcDec \
-    libOmxG711Dec \
-    libOmxMpeghEncSw \
-    libOmxQcelp13Dec \
-    libOmxWmaDec \
     libOpenCL \
     libVkLayer_q3dtools \
     libadreno_app_profiles \
@@ -496,9 +482,6 @@ PRODUCT_PACKAGES += \
     audio.primary.lahaina \
     sound_trigger.primary.lahaina \
     vendor.qti.hardware.bluetooth_audio@2.1-impl \
-    libOmxDsdDec \
-    libOmxMpeghDecSw \
-    libOmxVideoDSMode \
     liba2dpoffload \
     libacdb-fts \
     libacdbloader \
@@ -513,7 +496,6 @@ PRODUCT_PACKAGES += \
     libbatterylistener \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
-    libdsd2pcm \
     libgcs-calwrapper \
     libgcs-ipc \
     libgcs-osal \
