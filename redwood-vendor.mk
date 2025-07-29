@@ -1030,7 +1030,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.campostproc@1.0 \
     vendor.xiaomi.hardware.citsensorservice@1.0 \
     vendor.xiaomi.hardware.citsensorservice@1.1 \
-    vendor.xiaomi.hardware.fx.tunnel@1.0 \
     bm2n06 \
     bm2n08 \
     bm2n13 \
